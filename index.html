@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coldplay - Trouble (Lyrics)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="video-background">
+        <video id="cover-video" autoplay loop muted playsinline>
+            <source src="cover.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+    
+    <div class="app-container">
+        <header>
+            <h1>TROUBLE</h1>
+        </header>
+        
+        <div class="content-wrapper">
+            <div class="main-section">
+            </div>
+            
+            <div class="lyrics-section">
+                <div class="player-controls">
+                    <button id="play-btn" aria-label="Play/Pause">
+                        <i id="play-icon" class="fas fa-play"></i>
+                        <i id="pause-icon" class="fas fa-pause" style="display: none;"></i>
+                    </button>
+                </div>
+                
+                <div class="lyrics-container" id="lyrics-container">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <audio id="audio-player" src="https://andresdevvv-trouble.s3.us-east-2.amazonaws.com/Coldplay+-+Trouble.flac" preload="metadata" autoplay></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
