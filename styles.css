@@ -93,7 +93,7 @@ header h1 {
     height: 100%;
     max-height: calc(100vh - 120px);
     overflow: hidden;
-    width: 500px;
+    width: 600px;
     margin-left: auto;
 }
 
