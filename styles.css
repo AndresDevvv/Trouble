@@ -52,8 +52,6 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.65);
-    background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.6) 100%);
 }
 
 .app-container {
@@ -82,7 +80,7 @@ header h1 {
 
 .content-wrapper {
     display: flex;
-    justify-content: flex-end; /* Changed from center to flex-end to align content to the right */
+    justify-content: flex-end;
     flex: 1;
     height: calc(100vh - 80px);
     overflow: hidden;
@@ -96,7 +94,7 @@ header h1 {
     max-height: calc(100vh - 120px);
     overflow: hidden;
     width: 500px;
-    margin-left: auto; /* Added to push the lyrics section to the right */
+    margin-left: auto;
 }
 
 .player-controls {
@@ -283,7 +281,7 @@ header h1 {
         width: 100%;
         padding: 0;
         max-height: calc(100vh - 100px);
-        margin-left: 0; /* Reset margin for mobile *
+        margin-left: 0; 
     }
     
     .lyrics-line {
